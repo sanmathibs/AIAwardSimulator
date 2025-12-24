@@ -5,6 +5,7 @@ AI Award Interpreter - Configuration
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+import streamlit as st
 
 # Load environment variables
 load_dotenv()
@@ -20,10 +21,10 @@ DATA_DIR.mkdir(exist_ok=True)
 SESSIONS_DIR.mkdir(exist_ok=True)
 
 # OpenAI Configuration
-OPENAI_API_KEY = os.getenv("api_key")
+OPENAI_API_KEY = st.secrets["openai"]["api_key"]
 if not OPENAI_API_KEY:
     raise ValueError(
-        "api_key not found in environment variables. Please set it in .env file"
+        "api_key not found. Please set it in streamlit secrets."
     )
 
 # Model Configuration
