@@ -1,0 +1,21 @@
+# Core dependencies
+streamlit
+python-dotenv
+openai
+instructor
+
+# Document processing
+beautifulsoup4
+requests
+lxml
+markdownify
+
+# Vector database
+chromadb
+
+# Data handling
+pydantic
+python-dateutil
+
+# Utilities
+tenacity

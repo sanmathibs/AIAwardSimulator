@@ -1,0 +1,829 @@
+{
+  "AwardVariation": [
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "MaxMissedBreak": 5.0,
+      "MinimumEngagement": null,
+      "MinBreakBetweenShifts": 10.0,
+      "DailyHoursThreshold": 10.0,
+      "SpanOfHoursStart": "06:00",
+      "SpanOfHoursEnd": "18:00",
+      "IncludeWeekendsInSpan": true,
+      "PhRule": "ActualDate",
+      "OvernightRule": "AcrossMidnight",
+      "AutoBreakAfterHours": 5.0,
+      "AutoBreakLength": 0.5,
+      "ChargingModel": "Fixed",
+      "RateModel": "Factored",
+      "SetNonScheduledHoursToOT": false,
+      "AnnualLeaveLoadingMode": "Simple",
+      "EnableBrokenShift": false,
+      "RDO_CycleDays": null,
+      "RDO_HoursPerDay": null,
+      "EnableRDOAccrual": false,
+      "PayModel": "BaseRateFTM"
+    }
+  ],
+  "AwardVariationRates": [
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "5155581B-3258-4674-B419-1AB5D94BCEBC",
+      "Name": "DAY1",
+      "DailyMax": 10.0,
+      "Weeklymax": 38.0,
+      "Factor": 1.0,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "4489C984-3A8C-4E3E-AF3A-A892CF38B08F",
+      "Name": "OT1",
+      "DailyMax": 3.0,
+      "Weeklymax": null,
+      "Factor": 1.5,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": false,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "B5978260-FA7A-40F6-B3A0-F64F4BB3557E",
+      "Name": "OT2",
+      "DailyMax": null,
+      "Weeklymax": null,
+      "Factor": 2.0,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": false,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "658D731A-7D52-45FE-93CC-F989DBCA9F61",
+      "Name": "SAT1",
+      "DailyMax": null,
+      "Weeklymax": null,
+      "Factor": 1.0,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": "Saturday",
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "658D731A-7D52-45FE-93CC-F989DBCA9F61",
+      "Name": "SAT2",
+      "DailyMax": null,
+      "Weeklymax": null,
+      "Factor": 2.0,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": "Saturday",
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "658D731A-7D52-45FE-93CC-F989DBCA9F61",
+      "Name": "SUN1",
+      "DailyMax":null,
+      "Weeklymax": null,
+      "Factor": 2.0,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": "Sunday",
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "B63CCAF2-DFF8-49DA-A1EA-9670C8D89D10",
+      "Name": "PHOL1",
+      "DailyMax": null,
+      "Weeklymax": null,
+      "Factor": 2.0,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": "Public Holiday",
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "19A9B190-0151-4A6F-84DC-21FFCF22BBF6",
+      "Name": "PHOL1_LOADING",
+      "DailyMax": null,
+      "Weeklymax": null,
+      "Factor": 0.5,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": "Public Holiday",
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "19A9B190-0151-4A6F-84DC-21FFCFLAT1",
+      "Name": "FLAT1",
+      "DailyMax": null,
+      "Weeklymax": null,
+      "Factor": 1,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "A74997EB-C3AE-4849-92D7-AB16CFBB4BAA",
+      "Name": "FIRST_AID",
+      "DailyMax": null,
+      "Weeklymax": 1,
+      "Factor": null,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": "CLAIMABLE",
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "A74997EB-C3AE-4849-92D7-AB16CFBB4BAA",
+      "Name": "FIRST_AID_CHRG",
+      "DailyMax": null,
+      "Weeklymax": 1,
+      "Factor": null,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "B5667F8D-17BB-4CF7-9DDF-C84CBC6DFDB6",
+      "Name": "ToolEquipment",
+      "DailyMax": null,
+      "Weeklymax": 1,
+      "Factor": null,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": "CLAIMABLE",
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "B5667F8D-17BB-4CF7-9DDF-C84CBC6DFDB6",
+      "Name": "ToolEquipment_CHRG",
+      "DailyMax": null,
+      "Weeklymax": 1,
+      "Factor": null,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "19775027-C57A-42D8-B93C-158A8882A403",
+      "Name": "MEAL_ALLOWANCE_1",
+      "DailyMax": null,
+      "Weeklymax": null,
+      "Factor": null,
+      "Threshold": 1.5,
+      "IsTaxable": true,
+      "IsSuperable": false,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": "THRESHOLD",
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "11613448-4B64-4FCB-AD09-6A61B1ADA818",
+      "Name": "MEAL_ALLOWANCE_2",
+      "DailyMax": null,
+      "Weeklymax": null,
+      "Factor": null,
+      "Threshold": 4.0,
+      "IsTaxable": true,
+      "IsSuperable": false,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": "THRESHOLD",
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "5155581B-3258-4674-B419-1AB5D94BCEBC",
+      "Name": "ANNUAL_LEAVE",
+      "DailyMax": null,
+      "Weeklymax": null,
+      "Factor": 1.0,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    },
+    {
+      "AwardVariationName": "WorkPac - Non-Coal Mining Agreement",
+      "AwardId": "5155581B-3258-4674-B419-1AB5D94BCEBC",
+      "Name": "ANNUAL_LEAVE_LOADING",
+      "DailyMax": null,
+      "Weeklymax": null,
+      "Factor": 0.175,
+      "Threshold": null,
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false,
+      "IsOnCost": false,
+      "AllowanceType": null,
+      "OnCostContributionPercentage": 100.0,
+      "DayOfWeek": null,
+      "StartHour": null,
+      "EndHour": null,
+      "IncludeHour": null,
+      "DailyMin": null
+    }
+  ],
+  "Rates": [
+    {
+      "objecttimeid": "97E77823-3022-41F1-9565-8C9645232623",
+      "RuleId": "7A7B549A-FD01-42CC-A3EF-EFA57D482BF3",
+      "Name": "DAY1",
+      "Value": 31.23
+    },
+    {
+      "objecttimeid": "97E77823-3022-41F1-9565-8C9645232623",
+      "RuleId": "7A7B549A-FD01-42CC-A3EF-EFA57D48SAT1",
+      "Name": "SAT1",
+      "Value": 31.23
+    },
+    {
+      "objecttimeid": "97E77823-3022-41F1-9565-8C9645232623",
+      "RuleId": "7A7B549A-FD01-42CC-A3EF-EFA57D48SAT2",
+      "Name": "SAT2",
+      "Value":  62.46
+    },
+    {
+      "objecttimeid": "97E77823-3022-41F1-9565-8C9645232623",
+      "RuleId": "7A7B549A-FD01-42CC-A3EF-EFA57D48OT1",
+      "Name": "OT1",
+      "Value": 46.845
+    },
+    {
+      "objecttimeid": "97E77823-3022-41F1-9565-8C9645232623",
+      "RuleId": "7A7B549A-FD01-42CC-A3EF-EFA57D48OT2",
+      "Name": "OT2",
+      "Value": 62.46
+    },
+    {
+      "objecttimeid": "97E77823-3022-41F1-9565-8C9645232623",
+      "RuleId": "7A7B549A-FD01-42CC-A3EF-EFA57D48SUN1",
+      "Name": "SUN1",
+      "Value": 62.46
+    },
+    {
+      "objecttimeid": "97E77823-3022-41F1-9565-8C9645232623",
+      "RuleId": "2E513459-8B6F-FC71-BE4C-F6181C50BB66",
+      "Name": "ToolEquipment",
+      "Value": 2.03
+    },
+    {
+      "objecttimeid": "97E77823-3022-41F1-9565-8C9645232623",
+      "RuleId": "19A9B190-0151-4A6F-84DC-21FFCFLAT1",
+      "Name": "FLAT1",
+      "Value": 26.17
+    }
+
+  ],
+  "RateProperties": [
+    {
+      "Name": "DAY1",
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false
+    },
+    {
+      "Name": "DAY1_CHRG",
+      "IsTaxable": false,
+      "IsSuperable": false,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": true
+    },
+    {
+      "Name": "FIRST_AID",
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false
+    },
+    {
+      "Name": "FIRST_AID_CHRG",
+      "IsTaxable": false,
+      "IsSuperable": false,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": true
+    },
+    {
+      "Name": "OT1",
+      "IsTaxable": true,
+      "IsSuperable": false,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false
+    },
+    {
+      "Name": "OT1_CHRG",
+      "IsTaxable": false,
+      "IsSuperable": false,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": true
+    },
+    {
+      "Name": "OT2",
+      "IsTaxable": true,
+      "IsSuperable": false,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false
+    },
+    {
+      "Name": "OT2_CHRG",
+      "IsTaxable": false,
+      "IsSuperable": false,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": true
+    },
+    {
+      "Name": "PHOL1",
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false
+    },
+    {
+      "Name": "PHOL1_CHRG",
+      "IsTaxable": false,
+      "IsSuperable": false,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": true
+    },
+    {
+      "Name": "SAT1",
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false
+    },
+    {
+      "Name": "SAT1_CHRG",
+      "IsTaxable": false,
+      "IsSuperable": false,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": true
+    },
+    {
+      "Name": "SUN1",
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false
+    },
+    {
+      "Name": "SUN1_CHRG",
+      "IsTaxable": false,
+      "IsSuperable": false,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": true
+    },
+    {
+      "Name": "SAT2",
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false
+    },
+    {
+      "Name": "SAT2_CHRG",
+      "IsTaxable": false,
+      "IsSuperable": false,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": true
+    },
+    {
+      "Name": "ToolEquipment",
+      "IsTaxable": true,
+      "IsSuperable": true,
+      "IsPayrollTax": true,
+      "IsWic": true,
+      "IsInvoice": false
+    },
+    {
+      "Name": "ToolEquipment_CHRG",
+      "IsTaxable": false,
+      "IsSuperable": false,
+      "IsPayrollTax": false,
+      "IsWic": false,
+      "IsInvoice": true
+    }
+  ],
+  "Shift_Rules": {
+    "Rules": [
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "DAY1",
+        "DayOfWeek": "Weekday",
+        "StartHour": [
+          "00:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "00:00",
+          "23:59"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "SAT1",
+        "DayOfWeek": "Saturday",
+        "StartHour": [
+          "00:00",
+          "12:00"
+        ],
+        "EndHour": [
+          "00:00",
+          "12:00"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "SAT2",
+        "DayOfWeek": "Saturday",
+        "StartHour": [
+          "12:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "12:00",
+          "23:59"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "PHOL1",
+        "DayOfWeek": "Public Holiday",
+        "StartHour": [
+          "00:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "00:00",
+          "23:59"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "SUN1",
+        "DayOfWeek": "Sunday",
+        "StartHour": [
+          "00:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "00:00",
+          "23:59"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "DAY1",
+        "DayOfWeek": "Weekday",
+        "AttributeCode": "CASUAL",
+        "MinEngage": 4,
+        "StartHour": [
+          "00:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "00:00",
+          "23:59"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "SAT1",
+        "DayOfWeek": "Saturday",
+        "AttributeCode": "CASUAL",
+        "MinEngage": 4,
+        "StartHour": [
+          "00:00",
+          "12:00"
+        ],
+        "EndHour": [
+          "00:00",
+          "12:00"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "SAT2",
+        "DayOfWeek": "Saturday",
+        "AttributeCode": "CASUAL",
+        "MinEngage": 4,
+        "StartHour": [
+          "12:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "12:00",
+          "23:59"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "SUN1",
+        "DayOfWeek": "Sunday",
+        "AttributeCode": "CASUAL",
+        "MinEngage": 4,
+        "StartHour": [
+          "00:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "00:00",
+          "23:59"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "PHOL1",
+        "DayOfWeek": "Public Holiday",
+        "AttributeCode": "CASUAL",
+        "MinEngage": 4,
+        "StartHour": [
+          "00:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "00:00",
+          "23:59"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "DAY1",
+        "DayOfWeek": "Weekday",
+        "AttributeCode": "RECALL",
+        "MinEngage": 4,
+        "StartHour": [
+          "00:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "00:00",
+          "23:59"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "SAT1",
+        "DayOfWeek": "Saturday",
+        "AttributeCode": "RECALL",
+        "MinEngage": 4,
+        "StartHour": [
+          "00:00",
+          "12:00"
+        ],
+        "EndHour": [
+          "00:00",
+          "12:00"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "SAT2",
+        "DayOfWeek": "Saturday",
+        "AttributeCode": "RECALL",
+        "MinEngage": 4,
+        "StartHour": [
+          "12:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "12:00",
+          "23:59"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "SUN1",
+        "DayOfWeek": "Sunday",
+        "AttributeCode": "RECALL",
+        "MinEngage": 4,
+        "StartHour": [
+          "00:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "00:00",
+          "23:59"
+        ]
+      },
+      {
+        "AwardVariationId": "WorkPac - Non-Coal Mining Agreement",
+        "Name": "PHOL1",
+        "DayOfWeek": "Public Holiday",
+        "AttributeCode": "RECALL",
+        "MinEngage": 4,
+        "StartHour": [
+          "00:00",
+          "23:59"
+        ],
+        "EndHour": [
+          "00:00",
+          "23:59"
+        ]
+      }
+    ]
+  },
+  "PublicHolidays": [
+    {
+      "GroupID": "PH_GROUP_1",
+      "Date": "2025-06-13"
+    },
+    {
+      "GroupID": "PH_GROUP_2",
+      "Date": "2025-12-25"
+    }
+  ]
+}
