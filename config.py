@@ -61,5 +61,5 @@ CHUNK_SIZE = 1000  # characters per clause chunk
 MAX_TOKENS_PER_REQUEST = 4000
 
 # UI Configuration
-APP_TITLE = "AI Award Interpreter"
+APP_TITLE = "AI Award Simulator"
 APP_ICON = "⚖️"
