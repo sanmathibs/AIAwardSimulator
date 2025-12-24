@@ -85,7 +85,7 @@ def main():
         unsafe_allow_html=True,
     )
     st.markdown(
-        "<p style='text-align: center; color: #666;'>Transform Fair Work Awards into System Configurations</p>",
+        "<p style='text-align: center; color: #666;'>From Fair Work Awards to system-ready configurations in minutes!</p>",
         unsafe_allow_html=True,
     )
     st.markdown("---")
